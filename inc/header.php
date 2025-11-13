@@ -13,7 +13,7 @@ setcookie(
     [
         "expires" => time() + 3600, // Thời gian hết hạn (1 giờ)
         "path" => "/",              // Đường dẫn
-        "domain" => "https://benhxahoi.andongclinic.vn",  // Tên miền (tuỳ chỉnh)
+        "domain" => "bxh.phongkhamandonghcm.com",  // Tên miền (tuỳ chỉnh)
         "secure" => true,           // Chỉ gửi qua HTTPS
         "httponly" => true,         // Chỉ gửi cookie qua HTTP (không JavaScript)
         "samesite" => "None"        // SameSite=None
@@ -39,8 +39,8 @@ $dbReadTotalTime = ($dbReadEndTime - $dbReadStarTime) / 1e+6;
 
 header('Server-Timing: db;desc="Database";dur=' . $dbReadTotalTime);
 
-$local = 'http://localhost/_andong/benhxahoi.andongclinic.vn'
-// $local = 'https://benhxahoi.andongclinic.vn'
+$local = 'http://localhost/_andong/bxh.phongkhamandonghcm.com'
+// $local = 'https://bxh.phongkhamandonghcm.com'
 ?>
 <!DOCTYPE html>
 <html ⚡ lang="en">
