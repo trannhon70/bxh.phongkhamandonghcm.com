@@ -136,7 +136,8 @@ setTitleAndScroll();
                                 <img loading="lazy" width="30px" height="30px"
                                     src="<?php echo $local ?>/images/icons/icon_KM2025.gif" alt="...">
                                 <div>
-                                    <strong>**Khuyến mãi</strong>: "Mùa hè rực rỡ" phòng khám gửi tới bệnh nhân chương trình ưu
+                                    <strong>**Khuyến mãi</strong>: "Tri ân cuối năm" phòng khám gửi tới bệnh nhân chương trình
+                                    ưu
                                     đãi lớn.
                                     Dành cho khách hàng đăng ký trong ngày hôm nay.
                                     <!-- <a href="<?php echo $local ?>/khuyen-mai.php?2CT"> -->
